@@ -151,6 +151,15 @@ button {
     border: 2px solid white;
 }
 
+.realfooter{
+    background-color: #1F2937;
+    height: 75px;
+    color: white;
+    font-size: 2opx;
+    text-align: center;
+    align-content: center;
+}
+
 
 
 
