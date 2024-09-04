@@ -4,12 +4,14 @@
 
 .header-container {
     background-color: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
+    height: 600px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 265px;
 }
 
 .hero-text {
@@ -39,14 +41,15 @@ button {
 .margin-left {
     display: flex;
     margin-left: auto;
-    gap: 5px;
+    gap: 40px;
+    margin-right: 200px;
 }
 
 .column-layout {
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin-left: 225px;
+    margin-left: 200px;
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -55,8 +58,8 @@ button {
     align-content: center;
     margin-left: 100px;
     margin-top: 200px;
-    margin-right: 100px;
-    margin-bottom: 150px;
+    margin-right: 125px;
+    margin-bottom: 200px;
 }
 
 p {
@@ -68,4 +71,32 @@ p {
     align-items: center;
     justify-content:space-around;
 }
+
+a.logo-n-links {
+    justify-content: space-evenly;
+    margin: 0 5;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 30px;
+}
+
+.columns {
+    display: inline-flex;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    width: 200px;
+}
+
+.img2 {
+    margin: 10px 100px;
+}
+
 
