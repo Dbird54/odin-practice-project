@@ -33,6 +33,7 @@ button {
 
 .logo-n-links div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     /*margin: 5 0;*/
     align-items:first baseline;
@@ -48,6 +49,7 @@ button {
 .column-layout {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 400px;
     margin-left: 200px;
     margin-top: 150px;
@@ -98,5 +100,57 @@ figure {
 .img2 {
     margin: 10px 100px;
 }
+
+img {
+    border-radius: 15px;
+}
+
+.blockquote1 {
+    background-color: #bfc5cf;
+    height: 350px;
+    font-size: 36px;
+}
+
+.citation {
+    width: 700px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 50px 0;
+    
+}
+
+.footer {
+    height: 200px;
+}
+
+.bluebox {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.biggertext {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
 
 
