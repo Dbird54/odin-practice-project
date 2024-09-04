@@ -1,3 +1,7 @@
+/** {
+    border: 2px solid red;
+}*/
+
 .header-container {
     background-color: #1F2937;
     color: #F9FAF8
@@ -22,11 +26,46 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 15px;
+    margin-top: 15px;
 }
 
 .logo-n-links div {
     display: flex;
     justify-content: space-evenly;
-    margin: 5 0;
+    /*margin: 5 0;*/
     align-items:first baseline;
 }
+
+.margin-left {
+    display: flex;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.column-layout {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 225px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.image-placeholder {
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+.middle-part {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
